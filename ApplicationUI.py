@@ -37,13 +37,13 @@ class AppUI(QWidget):
 
         delBtn = QPushButton(self)
         delBtn.setFixedSize(50,50)
-        delBtn.setIcon(QIcon("../images/delete.png"))
+        delBtn.setIcon(QIcon("images/delete.png"))
         delBtn.clicked.connect(self.deleteImg)
         delBtn.setToolTip("Видалити зображення з набору")
 
         rotateBtn = QPushButton(self)
         rotateBtn.setFixedSize(50,50)
-        rotateBtn.setIcon(QIcon("../images/rotate.png"))
+        rotateBtn.setIcon(QIcon("images/rotate.png"))
         rotateBtn.clicked.connect(self.rotateImg)
         rotateBtn.setToolTip("Повернути зображення")
 
