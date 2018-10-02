@@ -22,4 +22,3 @@ class ResultSaver(object):
       f.write('-----------------------\n')
       f.close()
 
-
