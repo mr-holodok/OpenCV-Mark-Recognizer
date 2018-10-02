@@ -222,7 +222,7 @@ class ImageRotator():
 if __name__ == '__main__':
     
     recognizer = Recognizer()
-    answ, img = recognizer.recognize("../photo tests/t6.jpg")
+    answ, img = recognizer.recognize("photo tests/t6.jpg")
     for row in answ:
         print(row)
     img = cv2.resize(img, (500,700))
